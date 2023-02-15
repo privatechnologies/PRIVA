@@ -206,7 +206,7 @@ h6 {
 
 #header .logo {
   font-size: 62px;
- 
+ /* border: 1px solid red; */
   margin-bottom:1.5rem;
   line-height: 1;
   font-weight: 400;
@@ -219,7 +219,9 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 50px;
+  max-height: 75px;
+  margin-top: 20px;
+  /* border: 1px solid red; */
 }
 
 /*--------------------------------------------------------------
@@ -721,9 +723,7 @@ section {
 
 .section-title h2 {
   font-size: 50px;
-  /* border: 1px solid red; */
   text-transform: uppercase;
-  margin-top: 35px;  
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -755,6 +755,15 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding:0;
+  margin-top: 125px;
+  /* border: 1px solid red; */
+}
+
+.center{
+  text-align: center;
+  margin-top: 60px;
+  border: 1px solid white;
+  
 }
 .about img{
   width:80%;
@@ -763,9 +772,10 @@ section {
 
 .about .content h3 {
   font-size: 50px;
-  border: 1px solid red;
-
+  /* border: 1px solid red; */
     text-transform: uppercase;
+    /* margin-top: 30%; */
+    margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
@@ -777,10 +787,12 @@ section {
   font-size: 20px;
   color:rgb(243, 235, 235);
   text-align: center;
+  /* border: 1px solid red; */
  padding:0 20px;
   
 }
 
+ 
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -863,7 +875,6 @@ section {
 --------------------------------------------------------------*/
 #services{
   background-color: hsl(0,0%,0%);
-  /* border: 2px solid blue; */
 }
 
 
@@ -871,65 +882,50 @@ section {
 
 .services  img{
   max-width: 100%;
-  /* height: 800px; */
   border-radius: 2rem;
   /* margin-top:4rem; */
   padding:0 12px;
-  /* border: 2px solid red; */
+  margin-left: 2rem;
 }
 
 .services .row p{
-
     font-size: 22px;
     text-align:justify;
-    margin-top: 75px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
     letter-spacing: 2px;
     word-spacing:-2px;
     color: white;
     font-weight: 200;
-    /* border: 2px solid red; */
 }
 
-.services .row .priv{
-
+.services .row .founder1{
+  /* border: 1px solid red; */
+  text-align: center;
+  color: white;
   font-size: 22px;
-  text-align:justify;
-  margin-top: 30px;
-  letter-spacing: 2px;
-  word-spacing:-2px;
-  color: white;
-  font-weight: 200;
-  /* border: 2px solid red; */
+  margin-left: 20px;
 }
-
-.services .row .coming{
-
+.services .row .founder2{
+  /* border: 1px solid red; */
+  text-align: center;
+  color: white;
   font-size: 18px;
-  text-align:left;
-  margin-top: 15px;
+  margin-top: -10px;
+}
+
+
+
+.services .row .who{
+  font-size: 22px;
+  /* border: 1px solid red; */
+  text-align:justify;
+  margin-top: 75px;
   letter-spacing: 2px;
   word-spacing:-2px;
   color: white;
   font-weight: 200;
-  /* border: 2px solid red; */
 }
-.services .row  ul{
-    list-style: none;
-    display: inline;
-    font-size: 22px;
-    text-align:left;
-    margin-top: 50px;
-    margin-left: 110px;
-    padding: 20px;
-    letter-spacing: 1px;
-    word-spacing:-2px;
-    color: white;
-    font-weight: 200;
-    border: 2px solid white;
-    border-radius: 15px;
-}
-
-
 .services .icon-box .icon i {
   font-size: 56px;
   transition: 0.5s;
@@ -1089,6 +1085,22 @@ section {
   display: inline-block;
   padding: 15px 0;
   border-radius:1.2rem;
+}
+
+#drishti{
+  height: 140px;
+  border: 1px solid red;
+  width: 166px;
+  margin-right: 50px;
+  /* padding-left: 15px 0; */
+}
+
+#lft{
+  height: 140px;
+  border: 1px solid red;
+  width: 166px;
+  margin-right: 50px;
+  /* padding-left: 15px 0; */
 }
 
 .clients img:hover {
