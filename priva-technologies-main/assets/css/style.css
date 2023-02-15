@@ -902,9 +902,11 @@ section {
   font-weight: 200;
 }
 .services .icon-box {
-  border: 3px solid white;
+  border: 3px solid #fff;
   /* height: 200px; */
   border-radius: 30px;
+/*   
+  box-shadow: 5px 10px 18px rgb(32, 213, 32); */
 }
 
 .services .icon-box .icon i {
@@ -934,7 +936,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: rgb(37, 238, 148);
+  color: white;
   transition: ease-in-out 0.3s;
 }
 
@@ -949,8 +951,10 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  border-color: rgb(32, 213, 32);
+  /* box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); */
+  
+  box-shadow: 5px 10px 18px rgb(32, 213, 32);
 }
 
 .services .iconbox-blue i {
@@ -1078,7 +1082,7 @@ section {
 #drishti{
   height: 170px;
   /* border: 1px solid red; */
-  width: 250px;
+  width: 345px;
   margin-left: 150px;
   /* padding-left: 15px 0; */
 }
@@ -1086,7 +1090,7 @@ section {
 #lft{
   height: 170px;
   /* border: 1px solid red; */
-  width: 250px;
+  width: 345px;
   margin-right: 190px;
   /* padding-left: 15px 0; */
 }
