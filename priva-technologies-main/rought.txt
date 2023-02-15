@@ -1,0 +1,1 @@
+row-lg-6 order-2 order-lg-2 d-flex flex-row align-items-lg-center
