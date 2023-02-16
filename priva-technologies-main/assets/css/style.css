@@ -915,6 +915,11 @@ section {
   /* border: 1px solid red; */
   position: relative;
 }
+.services .icon-box .icon .img_service{
+  border: 1px solid red;
+  margin-left: 120px;
+  margin-top: 20px;
+}
 
 .services .icon-box .icon svg {
   position: absolute;
