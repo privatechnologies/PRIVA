@@ -884,7 +884,8 @@ section {
 .services .row p{
     font-size: 22px;
     text-align:justify;
-    margin-top: 75px;
+    /* margin-top: 75px; */
+    margin-top: 30px;
     letter-spacing: 2px;
     word-spacing:-2px;
     color: white;
@@ -916,10 +917,31 @@ section {
   position: relative;
 }
 .services .icon-box .icon .img_service{
-  border: 1px solid red;
-  margin-left: 120px;
+  /* border: 1px solid red; */
+  margin-left: 137px;
+  /* margin-right: auto; */
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .services .icon-box .icon .img_service{
+    /* border: 1px solid red; */
+    margin-left: 216px;
+    /* height: auto;
+    width: 100%;
+    max-width: 100px; */
+  }
+}
+@media (max-width: 575px) {
+  .services .icon-box .icon .img_service{
+    /* border: 1px solid red; */
+    margin-left: 230px;
+    /* height: auto;
+    width: 100%;
+    max-width: 100px; */
+  }
+}
+
 
 .services .icon-box .icon svg {
   position: absolute;
@@ -934,7 +956,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 600;
-  margin: 50px 0 15px 0;
+  margin: 30px 0 15px 0;
   font-size: 22px;
   text-align: center;
   /* border: 1px solid red; */
@@ -1085,19 +1107,31 @@ section {
 }
 
 #drishti{
-  height: 170px;
+  height: 160px;
   /* border: 1px solid red; */
-  width: 345px;
+  width: 300px;
   margin-left: 150px;
   /* padding-left: 15px 0; */
 }
+@media (max-width: 768px){
+  #drishti{
+    /* border: 1px solid red; */
+    margin-left: 0px;
+  }
+}
 
 #lft{
-  height: 170px;
+  height: 160px;
   /* border: 1px solid red; */
-  width: 345px;
+  width: 300px;
   margin-right: 190px;
   /* padding-left: 15px 0; */
+}
+@media (max-width: 768px){
+  #lft{
+    /* border: 1px solid red; */
+    margin-right: 0px;
+  }
 }
 
 .clients img:hover {

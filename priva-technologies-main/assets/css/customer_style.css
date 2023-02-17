@@ -919,7 +919,7 @@ section {
     font-size: 22px;
     text-align:left;
     margin-top: 50px;
-    margin-left: 110px;
+    margin-left: 70px;
     padding: 20px;
     letter-spacing: 1px;
     word-spacing:-2px;
@@ -927,6 +927,13 @@ section {
     font-weight: 200;
     border: 2px solid white;
     border-radius: 15px;
+}
+
+@media (max-width: 768px){
+  .services .row  ul{
+    margin-left: 20px;
+    /* border: 1px solid red; */
+  }
 }
 
 
