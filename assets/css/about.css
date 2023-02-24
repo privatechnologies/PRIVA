@@ -950,7 +950,7 @@ section {
 @media (max-width: 768px){
   .services .row  .founder1{
     /* margin-left: 40px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 20px;
   }
 }
@@ -966,7 +966,7 @@ section {
 }
 @media (max-width: 768px){
   .services .row .founder2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin-left: 20px; */
   }
 }
@@ -1146,7 +1146,7 @@ section {
 
 #drishti{
   height: 150px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 166px;
   margin-right: 50px;
   /* padding-left: 15px 0; */
@@ -1154,7 +1154,7 @@ section {
 
 #lft{
   height: 150px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 166px;
   margin-right: 50px;
   /* padding-left: 15px 0; */
