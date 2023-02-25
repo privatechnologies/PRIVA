@@ -234,6 +234,7 @@ h6 {
 #header .logo img {
   max-height: 75px;
   margin-top: 20px;
+  margin-left: 0px;
   /* border: 1px solid red; */
 }
 
@@ -249,6 +250,9 @@ h6 {
 
 .navbar ul {
   margin: 0;
+  margin-right: 10px;
+  /* border: 1px solid red; */
+
   padding: 0;
   display: flex;
   list-style: none;
@@ -1054,7 +1058,7 @@ section {
   font-size: 14px;
   /* border: 1px solid red; */
   margin-bottom: 30px;
-  text-align: justify;
+  text-align: center;
   color: white;
   padding: 15px;
 }
@@ -1063,7 +1067,7 @@ section {
   border-color: rgb(32, 213, 32);
   /* box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); */
   
-  box-shadow: 5px 10px 18px rgb(32, 213, 32);
+  box-shadow: 0 0 3px rgb(32, 213, 32), 0 0 10px rgb(32, 213, 32), 0 0 20px rgb(32, 213, 32);
 }
 
 .services .iconbox-blue i {
@@ -1189,9 +1193,9 @@ section {
 }
 
 #drishti{
-  height: 150px;
+  height: 180px;
   /* border: 1px solid red; */
-  width: 225px;
+  width: 200px;
   margin-left: 150px;
   /* padding-left: 15px 0; */
 }
@@ -1203,9 +1207,9 @@ section {
 }
 
 #lft{
-  height: 150px;
+  height: 180px;
   /* border: 1px solid red; */
-  width: 225px;
+  width: 200px;
   margin-right: 190px;
   /* padding-left: 15px 0; */
 }

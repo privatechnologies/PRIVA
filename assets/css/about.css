@@ -880,7 +880,11 @@ section {
 }
 
 
-
+.services .founder_link{
+  background-color: #fff;
+  border: 1px solid red;
+  
+}
 
 .services  img{
   max-width: 100%;
@@ -902,11 +906,12 @@ section {
 }
 
 .services .row{
-  border: 1px solid hsl(0,0%,0%);]
+  border: 1px solid hsl(0,0%,0%);
   
   background-color: hsl(0,0%,0%);
   /* background-color: white; */
-  box-shadow: 5px 10px 18px rgb(32, 213, 32);
+  
+  box-shadow: 0 0 3px rgb(32, 213, 32), 0 0 10px rgb(32, 213, 32), 0 0 20px rgb(32, 213, 32);
 }
 
 @media (min-width: 481px) and (max-width: 575px){
@@ -931,7 +936,7 @@ section {
     /* border: 1px solid red; */
     margin-top: 5px;
     padding: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     word-spacing:-2px;
     color: white;
     /* border: 1px solid red; */
@@ -947,6 +952,12 @@ section {
   margin-top: -8px;
   padding: 0px;
 }
+
+@media (max-width: 768px){
+  .services .row p{
+    padding: 0;
+  }
+}
 @media (max-width: 768px){
   .services .row  .founder1{
     /* margin-left: 40px; */
@@ -961,13 +972,14 @@ section {
   color: white;
   font-size: 18px;
   padding: 0px;
+  text-decoration: underline;
   margin-top: -20px;
   margin-left: 30px;
 }
 @media (max-width: 768px){
   .services .row .founder2{
     /* border: 1px solid red; */
-    /* margin-left: 20px; */
+    margin-left: 20px;
   }
 }
 
