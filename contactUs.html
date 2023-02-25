@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +34,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
     
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.html" class="logo"><img src="assets/img/exp-fin.png" alt="" class="img-fluid"></a>
@@ -50,9 +51,9 @@
               
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="careers.html">Careers</a></li>
+          <!-- <li><a class="nav-link scrollto" href="careers.html">Careers</a></li> -->
           <li><a class="nav-link scrollto active"" href="#">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="login.html">Login</a></li>
+          <!-- <li><a class="nav-link scrollto" href="login.html">Login</a></li> -->
 
           <!-- <li><a class=" primary-link" href="#contact">LOGIN</a></li> -->
          
@@ -65,17 +66,17 @@
 
   <section>
     <div class = 'first'> 
-      <form class="contact_form">
+      <form class="contact_form" method="post">
          <h1 class="contact_heading">Contact Us</h1> 
 
           <label  for="name" class="contact_label">Name:</label>
-          <input class= "Contact_input"type="text" id="name" placeholder="Enter Name">
+          <input class= "Contact_input"type="text" id="name" name="Name" placeholder="Enter Name">
 
           <label for="Email id" class="contact_label">Email id:</label>
-          <input class= "Contact_input"type="text" id="email" placeholder="Enter Email">
+          <input class= "Contact_input"type="text" id="email" name="Email" placeholder="Enter Email">
          
           <label for ="message" class="contact_label">Message:</label>
-          <textarea class="contact_text"id="message" placeholder="Enter message" row="6" ></textarea>
+          <textarea class="contact_text"id="message" placeholder="Enter message" name="Message" row="6" ></textarea>
       
           <div class="contact_center">
               <input class="Contact_input"type="submit" value="Submit">
@@ -107,10 +108,10 @@
 
           <div class="col-lg-2 col-md-6 footer-links">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="customer.html">Product</a></li>
+              <li><a href="contactUs.html">Contact us</a></li>
             </ul>
           </div>
 
@@ -183,3 +184,7 @@
 </body>
 
 </html>
+
+
+
+
